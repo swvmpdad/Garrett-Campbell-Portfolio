@@ -1,0 +1,50 @@
+:root {
+    --dark-purple: rgb(20, 12, 9);
+    --lime-green: rgb(5, 247, 69);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--dark-purple);
+    color: var(--lime-green);
+}
+
+header {
+    display: flex;
+    padding: 20px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li a {
+    margin: 10px 15px;
+    font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 55px;
+    color: lightcyan;
+}
