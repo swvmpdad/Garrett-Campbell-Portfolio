@@ -1,5 +1,5 @@
 :root {
-    --dark-purple: rgb(20, 12, 9);
+    --dark-purple: rgb(0, 12, 9);
     --lime-green: rgb(5, 247, 69);
 }
 
@@ -29,9 +29,10 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    border: 5px;
-    border-color: darkgrey;
+    border: 15px;
+    border-color: var(--lime-green);
     border-style: solid;
+    border-radius: 15px;
     z-index: 9999;
 }
 
@@ -62,22 +63,25 @@ header ul li a {
 header h1 {
     font-size: 55px;
     color: lightcyan;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 /* Jumbotron Styling */
 
 .jumbotron {
-    background-image: url("../Images/SWVMPDAD.jpg");
+    background-image: url("../Images/jumbotron.jpg");
     background-size: cover;
-    background-position: 70%;
+    background-position: fixed;
     display: flex;
     justify-content: center;
-    padding: 200px;
+    padding: 100px;
+    position: relative;
 }
 
-.jumbotron h2 {
-    display: flex;
-    justify-content: flex-end;
+.jumbotron div {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
 }
 
 /* body styling */
