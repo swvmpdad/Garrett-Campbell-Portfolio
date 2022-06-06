@@ -18,6 +18,10 @@ body {
 /* header styling */
 
 header {
+    background: black;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: 50%;
     display: flex;
     padding: 20px 35px;
     justify-content: space-between;
@@ -25,11 +29,20 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    border: 5px;
+    border-color: darkgrey;
+    border-style: solid;
     z-index: 9999;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
+    color: var(--lime-green);
 }
 
 header ul {
@@ -51,4 +64,21 @@ header h1 {
     color: lightcyan;
 }
 
+/* Jumbotron Styling */
+
+.jumbotron {
+    background-image: url("../Images/SWVMPDAD.jpg");
+    background-size: cover;
+    background-position: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.jumbotron h2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* body styling */
+
