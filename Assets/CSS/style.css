@@ -86,3 +86,52 @@ header h1 {
 
 /* body styling */
 
+/* about me styling */
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    border-bottom: 3px solid var(--lime-green);
+}
+
+.about-me h2 {
+    margin-right: 20px;
+}
+
+.about-me div {
+    margin: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.about-title {
+    border-right: 2px solid var(--lime-green);
+}
+
+/* Projects Styling */
+
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 35px auto;
+    flex: 1;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.projects div {
+    display: flex;
+}
