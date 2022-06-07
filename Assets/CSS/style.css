@@ -129,14 +129,14 @@ h2 {
 .my-projects {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 2 0 300px;
     border-bottom: 3px solid var(--lime-green);
 }
 
 .my-projects div {
     margin: 50px 50px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     vertical-align: middle;
     align-items: center;
     justify-content: space-evenly;
@@ -144,18 +144,27 @@ h2 {
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-wrap: wrap-reverse;
+    flex: 2 0 300px;
 }
 
-.projects div {
-    min-width: 200px;
-    min-height: 100px;
+.project {
     border: 1px solid var(--lime-green);
 }
 
-.projects div {
-    display: flex;
+.project-name {
+    border: 0.5px solid var(--lime-green);
+    background-color: var(--dark-purple);
+    margin-left: 0;
+    padding-left: 0;
+    float: left;
+    text-align: left;
+    justify-content: left;
+}
+
+#run-buddy {
+    background-image: url("../Images/runbuddy.png");
+    background-position: stretch;
 }
 
 /* Contact Me styling */
