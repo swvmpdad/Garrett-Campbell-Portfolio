@@ -20,19 +20,12 @@ body {
 header {
     background: black;
     background-size: auto;
-    background-attachment: fixed;
     background-position: 50%;
     display: flex;
     padding: 20px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-    border: 15px;
-    border-color: var(--lime-green);
-    border-style: solid;
-    border-radius: 15px;
     z-index: 9999;
 }
 
@@ -96,7 +89,7 @@ header h1 {
 }
 
 .about-me h2 {
-    margin-right: 20px;
+    text-align: right;
 }
 
 .about-me div {
@@ -105,7 +98,7 @@ header h1 {
     flex-wrap: wrap;
     vertical-align: middle;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .about-me img {
@@ -114,6 +107,8 @@ header h1 {
 }
 
 .about-title {
+    width: 400px;
+    height: 200px;
     border-right: 2px solid var(--lime-green);
 }
 
@@ -122,16 +117,52 @@ header h1 {
 .my-projects {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto 35px auto;
     flex: 1;
+    border-bottom: 3px solid var(--lime-green);
+}
+
+.project-title {
+    width: 400px;
+    height: 200px;
+    border-right: 2px solid var(--lime-green);
+}
+
+.my-projects h2 {
+    margin-right: 40px;
+}
+
+.my-projects div {
+    margin: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     flex: 1;
 }
 
 .projects div {
     display: flex;
+}
+
+/* Contact Me styling */
+
+.contact-title {
+    width: 400px;
+    height: 200px;
+    border-right: 2px solid var(--lime-green);
+}
+
+.contact-me div {
+    margin: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: space-between;
 }
