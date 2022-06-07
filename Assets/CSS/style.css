@@ -10,8 +10,18 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--dark-purple);
+    color: var(--lime-green);
+}
+
+h3 {
+    text-decoration: none;
+    color: var(--lime-green);
+}
+
+p {
+    text-decoration: none;
     color: var(--lime-green);
 }
 
@@ -129,7 +139,7 @@ h2 {
 .my-projects {
     display: flex;
     flex-wrap: wrap;
-    flex: 2 0 300px;
+    flex: 2 0 500px;
     border-bottom: 3px solid var(--lime-green);
 }
 
@@ -138,18 +148,22 @@ h2 {
     display: flex;
     flex-wrap: wrap-reverse;
     vertical-align: middle;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-evenly;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap-reverse;
-    flex: 2 0 300px;
+    flex: 2 0 500px;
 }
 
 .project {
-    border: 1px solid var(--lime-green);
+    border: 3px solid var(--lime-green);
+    border-radius: 10px;
+    position: relative;
+    min-height: 200px;
+    min-width: 300px;
 }
 
 .project-name {
@@ -157,6 +171,7 @@ h2 {
     background-color: var(--dark-purple);
     margin-left: 0;
     padding-left: 0;
+    position: relative;
     float: left;
     text-align: left;
     justify-content: left;
@@ -164,7 +179,6 @@ h2 {
 
 #run-buddy {
     background-image: url("../Images/runbuddy.png");
-    background-position: stretch;
 }
 
 /* Contact Me styling */
