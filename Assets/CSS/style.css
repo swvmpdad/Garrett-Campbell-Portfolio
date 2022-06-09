@@ -263,8 +263,8 @@ footer p {
         justify-content: center;
     }
 
-    header nav ul li {
-        font-size: 20px;
+    header nav ul li a {
+        font-size: 30px;
     }
 
     .jumbotron h2 {
