@@ -93,6 +93,7 @@ h2 {
 /* about me styling */
 
 .about-me{
+    margin: auto 50px;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -106,16 +107,9 @@ h2 {
 .about-me div {
     margin: 50px 50px;
     display: flex;
-    flex-wrap: wrap;
-    vertical-align: middle;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
+    justify-content: space-between;
+    max-width: 50%;
 }
 
 .about-me img {
@@ -137,6 +131,7 @@ h2 {
 /* Projects Styling */
 
 .my-projects {
+    margin: auto 50px;
     display: flex;
     flex-wrap: wrap;
     flex: 2 0 500px;
@@ -145,8 +140,6 @@ h2 {
 
 .my-projects div {
     margin: 50px 50px;
-    display: flex;
-    flex-wrap: wrap-reverse;
     vertical-align: middle;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -156,6 +149,7 @@ h2 {
     display: flex;
     flex-wrap: wrap-reverse;
     flex: 2 0 500px;
+    justify-content: center;
 }
 
 .project {
@@ -167,23 +161,50 @@ h2 {
 }
 
 .project-name {
+    margin-left: -20px;
     border: 0.5px solid var(--lime-green);
-    background-color: var(--dark-purple);
-    margin-left: 0;
-    padding-left: 0;
-    position: relative;
-    float: left;
-    text-align: left;
-    justify-content: left;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 120px;
+    width: 50%;
+}
+
+.project-name h3, .project-name p {
+    margin-left: 5px;
+}
+
+.my-projects a {
+    text-decoration: none;
 }
 
 #run-buddy {
     background-image: url("../Images/runbuddy.png");
 }
 
+#python {
+    background-image: url("../Images/glorp.jpg");
+    background-position: 50%;
+}
+
+#api {
+    background-image: url("../Images/gandalf.jpg");
+    background-position: 60%;
+}
+
+#react {
+    background-image: url("../Images/peverelist.jpg");
+    background-position: 50%;
+}
+
+#battle-robot {
+    background-image: url("../Images/battle.jpg");
+    background-position: 50%;
+}
+
 /* Contact Me styling */
 
 .contact-me {
+    margin: auto 50px;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -202,4 +223,17 @@ h2 {
 .contact-info div {
     display: flex;
     justify-content: space-evenly;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--lime-green);
+}
+
+footer {
+    margin: 20px 50px;
+}
+
+footer p {
+    text-align: center;
 }
