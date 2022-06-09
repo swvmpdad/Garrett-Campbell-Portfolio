@@ -152,12 +152,21 @@ h2 {
     justify-content: center;
 }
 
+.projects a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    flex: 2 1;
+}
+
 .project {
     border: 3px solid var(--lime-green);
     border-radius: 10px;
     position: relative;
     min-height: 200px;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 600px;
+    flex-grow: 2;
 }
 
 .project-name {
@@ -173,12 +182,10 @@ h2 {
     margin-left: 5px;
 }
 
-.my-projects a {
-    text-decoration: none;
-}
-
 #run-buddy {
     background-image: url("../Images/runbuddy.png");
+    width: 100%;
+    flex: 2;
 }
 
 #python {
@@ -229,6 +236,8 @@ h2 {
     text-decoration: none;
     color: var(--lime-green);
 }
+
+/* footer styling */
 
 footer {
     margin: 20px 50px;
