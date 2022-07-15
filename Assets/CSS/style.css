@@ -146,7 +146,7 @@ h2 {
 
 .projects {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     flex: 2 0 500px;
     justify-content: center;
 }
