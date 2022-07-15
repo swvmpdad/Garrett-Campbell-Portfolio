@@ -187,18 +187,18 @@ h2 {
     flex: 2;
 }
 
-#python {
-    background-image: url("../Images/glorp.jpg");
+#showbiz-baby {
+    background-image: url("../Images/ShowbizBabyLogo.png");
     background-position: 50%;
 }
 
-#api {
-    background-image: url("../Images/gandalf.jpg");
+#taskinator {
+    background-image: url("../Images/taskinator.png");
     background-position: 60%;
 }
 
-#react {
-    background-image: url("../Images/peverelist.jpg");
+#workin-hard {
+    background-image: url("../Images/snapshot.png");
     background-position: 50%;
 }
 
