@@ -192,6 +192,11 @@ h2 {
     background-position: 50%;
 }
 
+#social-strength {
+    background-image: url("../Images/exercise1.jpeg");
+    background-position: 50%;
+}
+
 #taskinator {
     background-image: url("../Images/taskinator.png");
     background-position: 60%;
